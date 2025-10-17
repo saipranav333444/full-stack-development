@@ -1,4 +1,6 @@
-In this project, let's build a **Blog List bloglispjtt.ccbp.tech** by applying the concepts we have learned till now.
+In this project, let's build a **Blog List ** by applying the concepts we have learned till now.
+
+LIVE URL: bloglispjtt.ccbp.tech
 
 ### Refer to the image below:
 
