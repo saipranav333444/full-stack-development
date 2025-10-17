@@ -1,0 +1,12 @@
+.blog-list-container {
+  width: 100%;
+  margin: auto;
+  padding-left: 0px;
+  list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-list-container {
+    width: 95%;
+  }
+}
