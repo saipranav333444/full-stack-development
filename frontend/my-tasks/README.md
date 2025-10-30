@@ -1,6 +1,6 @@
 The goal of this coding exam is to quickly get you off the ground with **Lists and Keys**.
 
-### LIVE: mytaskspjt.ccbp.tech:
+### LIVE: mytaskspjt.ccbp.tech
 
 ### Refer to the image below:
 
