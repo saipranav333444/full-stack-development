@@ -1,0 +1,70 @@
+/* LogoHeader.css */
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo, text, and icons */
+  padding: 10px; /* Optional padding for the header */
+}
+
+.logo {
+  width: 35.61px; 
+  height: 35.66px; 
+  display: flex; /* Make it a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  opacity: 1; /* Changed to 1 for visibility */
+}
+
+.logo-image {
+  width: 100%; /* Adjust to fit container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-text {
+  font-family: 'Inter', sans-serif; 
+  font-size: 36px; 
+  font-weight: 800; 
+  line-height: 43.57px; 
+  letter-spacing: 1px; 
+  text-align: center; /* Center text */
+  flex-grow: 1; /* Allow text to grow and occupy space */
+  text-align: center; /* Center the text */
+}
+
+.icon-container {
+  display: flex; /* Flex container for icons */
+  gap: 10px; /* Space between icons */
+}
+
+.icon {
+  width: 20px; 
+  height: 20px; 
+  opacity: 1; /* Changed to 1 for visibility */
+  cursor: pointer; /* Change cursor on hover */
+  padding-left: 10px;
+}
+
+/* Optional styles for hover effects */
+.icon:hover {
+  color: #5cb85c; /* Change color on hover */
+}
+
+.signout-button{
+  padding: 10px 20px; /* Vertical and horizontal padding */
+  background-color: #ff4c4c; /* Red background for visibility */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-right : 19px;
+}
+
+.signout-container{
+  display: flex;
+  justify-content: flex-end;
+
+}
