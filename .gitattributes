@@ -1,0 +1,14 @@
+# Normalize line endings for text files
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.db binary
+
+# Lockfiles are generated: collapse them in diffs and exclude them from language stats
+package-lock.json linguist-generated=true -diff
+pnpm-lock.yaml linguist-generated=true -diff
